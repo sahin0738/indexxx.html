@@ -103,6 +103,13 @@
     }
   </style>
 </head>
+  <script>
+  window.onbeforeunload = function (e) {
+    e.preventDefault();
+    e.returnValue = '';
+  };
+</script>
+
 <body>
 
   <h1>Tanışalım mı?</h1>
